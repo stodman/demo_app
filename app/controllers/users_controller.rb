@@ -29,9 +29,15 @@ class UsersController < ApplicationController
     respond_to do |format|
       if @user.save
         format.html { redirect_to @user, notice: 'User was successfully created.' }
+<<<<<<< HEAD
         format.json { render :show, status: :created, location: @user }
       else
         format.html { render :new }
+=======
+        format.json { render action: 'show', status: :created, location: @user }
+      else
+        format.html { render action: 'new' }
+>>>>>>> 3e22a6e171c703d07feee71fb9e5c7db0de7e32b
         format.json { render json: @user.errors, status: :unprocessable_entity }
       end
     end
@@ -43,9 +49,15 @@ class UsersController < ApplicationController
     respond_to do |format|
       if @user.update(user_params)
         format.html { redirect_to @user, notice: 'User was successfully updated.' }
+<<<<<<< HEAD
         format.json { render :show, status: :ok, location: @user }
       else
         format.html { render :edit }
+=======
+        format.json { head :no_content }
+      else
+        format.html { render action: 'edit' }
+>>>>>>> 3e22a6e171c703d07feee71fb9e5c7db0de7e32b
         format.json { render json: @user.errors, status: :unprocessable_entity }
       end
     end

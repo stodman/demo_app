@@ -1,6 +1,10 @@
+<<<<<<< HEAD
 Rails.application.routes.draw do
   resources :microposts
 
+=======
+DemoApp::Application.routes.draw do
+>>>>>>> 3e22a6e171c703d07feee71fb9e5c7db0de7e32b
   resources :users
 
   # The priority is based upon order of creation: first created -> highest priority.

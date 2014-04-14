@@ -1,11 +1,19 @@
+<<<<<<< HEAD
 Rails.application.configure do
+=======
+DemoApp::Application.configure do
+>>>>>>> 3e22a6e171c703d07feee71fb9e5c7db0de7e32b
   # Settings specified here will take precedence over those in config/application.rb.
 
   # Code is not reloaded between requests.
   config.cache_classes = true
 
   # Eager load code on boot. This eager loads most of Rails and
+<<<<<<< HEAD
   # your application in memory, allowing both threaded web servers
+=======
+  # your application in memory, allowing both thread web servers
+>>>>>>> 3e22a6e171c703d07feee71fb9e5c7db0de7e32b
   # and those relying on copy on write to perform better.
   # Rake tasks automatically ignore this option for performance.
   config.eager_load = true
@@ -66,7 +74,11 @@ Rails.application.configure do
   # config.action_mailer.raise_delivery_errors = false
 
   # Enable locale fallbacks for I18n (makes lookups for any locale fall back to
+<<<<<<< HEAD
   # the I18n.default_locale when a translation cannot be found).
+=======
+  # the I18n.default_locale when a translation can not be found).
+>>>>>>> 3e22a6e171c703d07feee71fb9e5c7db0de7e32b
   config.i18n.fallbacks = true
 
   # Send deprecation notices to registered listeners.
@@ -77,7 +89,10 @@ Rails.application.configure do
 
   # Use default logging formatter so that PID and timestamp are not suppressed.
   config.log_formatter = ::Logger::Formatter.new
+<<<<<<< HEAD
 
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
+=======
+>>>>>>> 3e22a6e171c703d07feee71fb9e5c7db0de7e32b
 end

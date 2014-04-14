@@ -1,9 +1,18 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
+<<<<<<< HEAD
   name: MyString
   email: MyString
 
 two:
   name: MyString
   email: MyString
+=======
+  name: 
+  email: 
+
+two:
+  name: 
+  email: 
+>>>>>>> 3e22a6e171c703d07feee71fb9e5c7db0de7e32b
